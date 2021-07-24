@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -7,13 +9,15 @@
 body,html{
   width:100vw;
   height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 .nav-bar{
   width: 100%;
   height: 45px;
-  background-color:aqua;
+  background-color:white;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,6 +25,7 @@ body,html{
   top:0;
   left: 0;
   right: 0;
+  border-bottom:1px solid #F5F5F5;
 }
 
 .nav-bar .nav-area{
@@ -40,4 +45,220 @@ body,html{
 
 .nav-bar .nav-area ul li a{
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
 }
+
+.nav-bar .logo{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-bar .logo .logo-icon{
+  margin-right: 5px;
+}
+
+.home{
+  width:100vw;
+  height: 100vh;
+  background-color:white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.home .me{
+  display: flex;
+  padding:90px;
+  
+  flex-direction: column;
+}
+
+.home .me p{
+  font-size: 25px;
+  text-align: justify;
+  color:#143D59;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.home .me .icon-area{
+  margin-bottom: 150px;
+  white-space: nowrap;
+}
+
+.home .me .bx{
+  margin-right: 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+.home .me button{
+  width:150px;
+  height:35px;
+  margin-right: 20px;
+  border-radius:0;
+  border: none;
+  background-color:#143D59;
+  color:white;
+}
+
+.options{
+  white-space: nowrap;
+}
+
+.home .me button:hover{
+  background-color:#1b5074;
+}
+
+.bxl-github{
+color:#320162;
+}
+
+.bxl-facebook-circle{
+  color:#166FE5;
+}
+
+.bxl-whatsapp{
+  color:#0EC244;
+}
+
+.bxl-linkedin{
+  color:#0274B3;
+}
+
+.bxl-youtube{
+  color:#FF0000;
+}
+
+.foto img{
+  width:400px;
+  width:400px;
+}
+
+.foto{
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me{
+  width:100vw;
+  height: 100vh;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.skills{
+  width:100vw;
+  padding-top: 50px;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+  background-color: #F5F5F5;
+  padding-bottom: 20px;
+}
+
+.skills h2{
+  width:100%;
+  text-align: center;
+  margin-bottom: 70px;
+  color:#143D59;
+}
+
+.skills .skill-boxs{
+  width:100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.skills .skill-boxs .box{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius:20px;
+  flex-direction: column;
+}
+
+.skills .skill-boxs .box .box-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  height:70px;
+  padding: 10px;
+  color:white;
+  font-size: 12px;
+  border-radius:20px 20px 0  0;
+}
+
+.skills .skill-boxs .box .box-icon .bx{
+  font-size: 30px;
+}
+
+.pen{
+  background-color:#2EDBE3;
+}
+
+.desk{
+  background-color:#FF328B;
+}
+
+.server{
+  background-color:#323233;
+}
+
+.skill-icon{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.skill-icon span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  font-size: 13px;
+  color:#143D59;
+}
+
+.skill-icon span .bx{
+  font-size: 25px;
+  color:#136F8D;
+}
+
+.skills .skills-percent{
+  padding: 30px;
+  background:white;
+  width:100%;
+  border-radius:20px;
+}
+
+.skills-percent{
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-percent span i{
+  margin-right: 70px;
+}
+
+.skills-percent span .bx{
+  font-size: 25px;
+}
+

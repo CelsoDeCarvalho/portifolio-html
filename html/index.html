@@ -1,28 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <script src="https://unpkg.com/boxicons@2.0.8/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
     <title>Meu Portifolio</title>
 </head>
 
 <body>
     <nav class="nav-bar">
-        <div class="logo"></div>
+        <div class="logo">
+            <box-icon class="logo-icon" name='code-alt'></box-icon>
+            <span>CCODER</span>
+        </div>
         <div class="nav-area">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="">Portifolio</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">Contact Me</a></li>
                 <li><a href="">Hire Me</a></li>
             </ul>
         </div>
     </nav>
+
+    <section id="home" class="home">
+
+        <div class="me">
+            <p id="auto_writer">
+
+            </p>
+
+            <div class="icon-area">
+                <a><i class='bx bxl-github'></i></a>
+                <a><i class='bx bxl-facebook-circle'></i></a>
+                <a><i class='bx bxl-whatsapp'></i></a>
+                <a><i class='bx bxl-linkedin'></i></a>
+                <a><i class='bx bxl-youtube'></i> </a>
+            </div>
+
+            <div class="options">
+                <button>Hire Me</button>
+                <button>See Portifolio</button>
+            </div>
+
+        </div>
+
+        <div class="foto">
+            <img src="../images/Programming.gif" alt="foto da pagina">
+        </div>
+
+    </section>
+
+    <section id="about-me" class="about-me">
+
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Professional Skills</h2>
+        <div class="skill-boxs">
+            <div class="box">
+                <div class="box-icon pen">
+                    <span><i class='bx bxs-pen'></i></span>
+                    <strong>UI/UX DESIGN</strong>
+                </div>
+
+                <div class="skill-icon">
+                    <span>
+                        <i class='bx bxl-figma'></i>
+                        <span>Figma</span>
+                    </span>
+                    <span>
+                        <i class='bx bxl-unity'></i>
+                        <span>Unity</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-adobe'></i>
+                        <span>Adobe</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-icon desk">
+                    <span><i class='bx bx-desktop'></i></span>
+                    <strong>FRONT END</strong>
+                </div>
+
+                <div class="skill-icon">
+
+                    <span>
+                        <i class='bx bxl-css3'></i>
+                        <span>Css3</span>
+                    </span>
+                    <span>
+                        <i class='bx bxl-bootstrap'></i>
+                        <span>Bootstrap</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-mastodon'></i>
+                        <span>Material Ui</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-tailwind-css'></i>
+                        <span>Tailwind</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-html5'></i>
+                        <span>Html5</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-javascript' ></i>
+                        <span>JS</span>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-icon server">
+                    <span><i class='bx bxs-server'></i></span>
+                    <strong>BACK END</strong>
+                </div>
+
+                <div class="skill-icon">
+                    <span>
+                        <i class='bx bxl-php'></i>
+                        <span>PHP</span>
+                    </span>
+                    <span>
+                        <i class='bx bxl-javascript' ></i>
+                        <span>JS</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxs-coffee'></i>
+                        <span>Java</span>
+                    </span>
+
+                    <span>
+                        <i class='bx bxl-spring-boot'></i>
+                        <span>Sprig Boot</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-percent">
+            <span>
+                <i style="color: #4F6D87;" class='bx bxs-coffee'></i>
+                <progress id="progressBar" max="100" value="80"></progress>
+            </span>
+
+            <span>
+                <i style="color: #FFCA28;" class='bx bxl-javascript' ></i>
+                <progress id="progressBar" max="100" value="10"></progress>
+            </span>
+
+            <span>
+                <i style="color: #7377AD;" class='bx bxl-php'></i>
+                <progress id="progressBar" max="100" value="5"></progress>
+            </span>
+
+            <span>
+                <i style="color: #E44D26;" class='bx bxl-html5'></i>
+                <progress id="progressBar" max="100" value="70"></progress>
+            </span>
+
+            <span>
+                <i style="color: #7010EF;" class='bx bxl-bootstrap'></i>
+                <progress id="progressBar" max="100" value="70"></progress>
+            </span>
+
+            <span>
+                <i style="color: #42A5F5;" class='bx bxl-css3'></i>
+                <progress id="progressBar" max="100" value="50"></progress>
+            </span>
+
+            <span>
+                <i style="color: #6AAD3D;" class='bx bxl-spring-boot'></i>
+                <progress id="progressBar" max="100" value="20"></progress>
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <script src="../js/index.js"></script>
+
 </body>
-  
+
 </html>
